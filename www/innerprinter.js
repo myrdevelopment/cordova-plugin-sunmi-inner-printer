@@ -20,7 +20,7 @@ let SunmiPrinter = {
     },
     cutPaper: function(resolve, reject) {
         cordova.exec(resolve, reject, "Printer", "cutPaper", []);
-    }
+    },
     lineWrap: function (count, resolve, reject) {
         cordova.exec(resolve, reject, "Printer", "lineWrap", [count]);
     },
