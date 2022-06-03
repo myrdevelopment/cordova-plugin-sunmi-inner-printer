@@ -1,4 +1,4 @@
-let SunmiPrinter = {
+module.exports = {
 
     printerInit: function (resolve, reject) {
         cordova.exec(resolve, reject, "Printer", "printerInit", []);
@@ -64,5 +64,3 @@ let SunmiPrinter = {
         cordova.exec(function () {}, function () {}, "Printer", "printerStatusStopListener", []);
     }
 }
-
-module.exports = { SunmiPrinter };
