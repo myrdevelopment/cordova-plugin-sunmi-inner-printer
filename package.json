@@ -6,6 +6,10 @@
       "android"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myrdevelopment/cordova-plugin-sunmi-inner-printer.git"
+  },
   "description": "Cordova/Ionic Sunmi v2 Inner Printer",
   "license": "MIT",
   "name": "cordova-plugin-sunmi-inner-printer",
